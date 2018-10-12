@@ -31,5 +31,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://s3-ap-southeast-1.amazonaws.com/rfq-react-ui1/index.html"
+  "homepage": "https://s3-ap-southeast-1.amazonaws.com/"
 }
