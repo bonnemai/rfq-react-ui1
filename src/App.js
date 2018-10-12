@@ -9,6 +9,7 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import {Nav, Navbar, NavDropdown, MenuItem, Tabs, ButtonToolbar, Button, ButtonGroup, Row, Col, Grid, Panel, FormGroup, FormControl} from 'react-bootstrap';
 import NameForm from './NameForm';
+import MyStockChart from './Chart';
 
 
 const styles = theme => ({
@@ -74,6 +75,10 @@ function SimpleTable(props) {
     <br/>
     <h2>New Quote</h2>
     <NameForm />
+
+    <br/>
+    <br/>
+    <MyStockChart />
     </div>
   );
 }
