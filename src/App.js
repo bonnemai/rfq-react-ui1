@@ -8,8 +8,6 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import {Nav, Navbar, NavDropdown, MenuItem, Tabs, ButtonToolbar, Button, ButtonGroup, Row, Col, Grid, Panel, FormGroup, FormControl} from 'react-bootstrap';
-//import * as NameForm from './NameForm';
-import Application from './SmallComponent';
 import NameForm from './NameForm';
 
 

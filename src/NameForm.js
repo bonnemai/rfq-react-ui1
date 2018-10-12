@@ -25,7 +25,8 @@ export default class NameForm extends React.Component {
   handleSubmit(event) {
     // TODO: Use props
     // TODO: Rename value -> quote
-    const url='http://localhost:8080/quote?quote='+this.state.value
+    // const url='http://localhost:8080/quote?quote='+this.state.value
+    const url='http://quoteservice-env.p9mkn4ivb4.us-west-2.elasticbeanstalk.com/quote?quote='+this.state.value
     console.log('Calling URL: ' + url)
     fetch(url).then(response => response.json()).then(data => this.setState({value: this.state.value, rows:data}));
 
