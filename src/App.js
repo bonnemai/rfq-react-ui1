@@ -29,12 +29,6 @@ function createData(name, calories, fat, carbs, protein) {
   id += 1;
   return { id, name, calories, fat, carbs, protein };
 }
-//
-//const rows = [
-//  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-//  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-//];
-
 
 const rows = [
   {quote: 'HSI EC 1Y 100', strike: 100, expiry: 'Mar19', premium: 1.2},
